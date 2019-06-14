@@ -1,0 +1,43 @@
+header {
+	width: 100vw;
+	height: 50px;
+	background-image: linear-gradient(to right, #0b0930, #1a1a64, #2c2a89, #453aa4, #5c49c6, #7b6fde);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+body {
+	background-color: whitesmoke;
+}
+button {
+	height: 30px;
+	border-radius: 3px;
+	color: #a50000;
+	font-weight: bolder;
+	font-size: 18px;
+}
+#battlefield {
+	padding: 10px;
+}
+
+#hero1Pic {
+	width: 200px;
+	border: #a50000 solid 10px;
+}
+#hero2Pic {
+	width: 200px;
+	border: #999999 solid 10px;
+}
+#battlefield {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: solid black 2px;
+}
+
+.bar-chart {
+	background-color: rgb(37, 37, 37);
+	padding-left: 5px;
+}
+svg {
+	margin: 20px;
+}
