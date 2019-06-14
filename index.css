@@ -33,11 +33,14 @@ button {
 	justify-content: space-between;
 	border-bottom: solid black 2px;
 }
-
+#stats {
+	display: flex;
+}
 .bar-chart {
 	background-color: rgb(37, 37, 37);
 	padding-left: 5px;
 }
 svg {
-	margin: 20px;
+	margin: 0 20px;
+	align-self: flex-end;
 }
